@@ -11,7 +11,7 @@ body {
     padding-top: 20px;
     background-color: #CBF1F5;
     color: #393E46;
-    height: 20vh;
+    height: 12vh;
     align-items: center;
 }
 
@@ -42,12 +42,13 @@ body {
     background-color: #71C9CE;
     height: 5%;
     padding: 2px;
-
-
+    
+    
 }
 
 .middle_container {
     margin: auto;
+    padding: 1%;
 }
 
 #middle_container1:hover {
@@ -69,7 +70,7 @@ body {
 .bottom {
     display: flex;
     flex-direction: column;
-
+    
     height: 80vh;
     background-color: #393E46;
 }
@@ -77,15 +78,15 @@ body {
 
 .box_group1,
 .box_group2 {
-
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 5vh;
     height: 16vh;
     align-items: center;
-
-
+    
+    
 }
 
 .box_group2{
@@ -128,3 +129,29 @@ body {
     cursor: pointer;
 }
 
+@media only screen and (min-width: 700px){
+    .top{
+        height: 20vh;
+        padding-top: 5%;
+    }
+    
+    #top_line1 {
+        font-size: 2rem;
+    }
+    
+    #top_line2 {
+        font-size: 4rem;
+    }
+    #top_line3 {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .box{
+        height: 69%;
+        width: 11vw;
+    }
+    .box_group1,.box_group2{
+        height: 22vh;
+    }
+}
